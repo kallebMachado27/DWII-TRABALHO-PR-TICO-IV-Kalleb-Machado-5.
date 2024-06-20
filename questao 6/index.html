@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Twitter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="text-white p-3" style="background-color: #77ff38;">
+        <h1 class="mb-0"><img src="./img/mini.png" alt="Logo Fast Post" style="height: 50px; width: 60px;">Mini Twitter
+        </h1>
+    </header>
+    <div class="container mt-5">
+        <form id="postForm">
+            <div class="form-group">
+                <label for="postContent">Nova Postagem</label>
+                <textarea class="form-control" id="postContent" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Postar</button>
+        </form>
+
+
+        <div id="postsArea" class="mt-4">
+            
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
